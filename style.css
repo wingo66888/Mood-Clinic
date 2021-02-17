@@ -6,13 +6,11 @@
 }
 
 #info {
-  background-color: #fcb2b2;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1)[3];
-      grid-template-columns: repeat(3, 1);
-  height: 300px;
-  padding: 20px 20px;
+  -ms-grid-columns: 35% 35% 30%;
+      grid-template-columns: 35% 35% 30%;
+  background-color: #fcb2b2;
 }
 
 #info .flid {

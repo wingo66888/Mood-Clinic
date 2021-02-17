@@ -4,11 +4,11 @@
     font-family: 微軟正黑體;
 }
 
-#info > div{
+#info {
     display: grid;
     grid-template-columns: 35% 35% 30%;
     background-color: rgb(252, 178, 178);
-    
+ 
     .flid{
         width: 100px;
         height: 100px;
