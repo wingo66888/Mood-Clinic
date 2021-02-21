@@ -6,11 +6,10 @@
 }
 
 #info {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 35% 35% 30%;
-      grid-template-columns: 35% 35% 30%;
+  grid-template-columns: 35% 35% 30%;
   background-color: #fcb2b2;
+  height: 250px;
 }
 
 #info .flid {
@@ -19,13 +18,13 @@
   padding: 20px 20px;
 }
 
-#info .flid .traffic {
-  width: 150px;
+#info .traffic {
+  width: 350px;
   height: 150px;
   margin: 20px;
 }
 
-#info .flid .copy {
+#info .copy {
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
