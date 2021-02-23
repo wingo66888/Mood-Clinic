@@ -6,10 +6,8 @@
 }
 
 #info {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 35% 35% 30%;
-      grid-template-columns: 35% 35% 30%;
+  grid-template-columns: 35% 35% 30%;
   background-color: #fcb2b2;
   height: 250px;
 }
@@ -21,12 +19,13 @@
 }
 
 #info .traffic {
-  width: 150px;
+  width: 300px;
   height: 150px;
   margin: 20px;
-}
+  align-items: center;
+  }
 
 #info .copy {
-  text-align: center;
+ text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
