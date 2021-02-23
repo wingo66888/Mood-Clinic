@@ -6,8 +6,10 @@
 }
 
 #info {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 35% 35% 30%;
+  -ms-grid-columns: 35% 35% 30%;
+      grid-template-columns: 35% 35% 30%;
   background-color: #fcb2b2;
   height: 250px;
 }
@@ -19,7 +21,7 @@
 }
 
 #info .traffic {
-  width: 350px;
+  width: 150px;
   height: 150px;
   margin: 20px;
 }
