@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 微軟正黑體;
@@ -8,21 +8,21 @@
     display: grid;
     grid-template-columns: 35% 35% 30%;
     background-color: rgb(252, 178, 178);
- 
-    .flid{
+
+    .flid {
         width: 100px;
         height: 100px;
         padding: 20px 20px;
-        
-        .traffic{
-            width: 150px;
-            height: 150px;
-            margin: 20px;
-        }
 
-    
-        .copy{
-            text-align: center;
-        }
     }
+    .traffic {
+        width: 150px;
+        height: 150px;
+        margin: 20px;
     }
+
+    .copy {
+        text-align: center;
+        grid-column-end: 3;
+    }
+}
