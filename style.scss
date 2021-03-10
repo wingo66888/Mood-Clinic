@@ -1,11 +1,17 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family:微軟正黑體;
 }
 
-#change p{
-    width: 600px;
-    height: 600px;
-   background-color: rgb(253, 230, 230);
+#Change{
+    background-color: rgb(195, 246, 195);
+    background-size:cover;
+    width:650px;
+  height:480px;
+  margin:100px auto 100px auto;
+  padding:30px;
+  box-shadow:0 5px 7px rgba(0,0,0,0.5);
 }
 #time{
     margin: 60px auto 10px;
