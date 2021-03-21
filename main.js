@@ -5,4 +5,7 @@ $("#service").slick({
     slidesToScroll: 1
   });
     
-      
+  $("#other").slick({
+    slidesToShow: 4, 
+    slidesToScroll: 1
+  });     

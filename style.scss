@@ -13,6 +13,7 @@
   padding:30px;
   box-shadow:0 5px 7px rgba(0,0,0,0.5);
 }
+
 #service{
     text-align: center;
     .ser {
@@ -21,6 +22,16 @@
         }
     }
 }
+
+#other{
+    text-align: center;
+    .project {
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
 #time{
     margin: 60px auto 10px;
     padding: 30px 50px;
