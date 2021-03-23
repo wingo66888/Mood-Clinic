@@ -4,6 +4,38 @@
     font-family:微軟正黑體;
 }
 
+#menu {
+    background-image: url(./img/menu.png);
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: none;
+
+    @media screen and (max-width: $tablet) {
+        display: block;
+        margin: 0 10px 0 auto;
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin: 0 20px 0 auto;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+nav{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    text-align: center;
+    padding: 35px 0;
+    box-shadow: $box-shawod;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
 #Change{
     background-color: rgb(195, 246, 195);
     background-size:cover;
@@ -23,6 +55,8 @@
     }
 }
 
+
+
 #other{
     text-align: center;
     .project {
@@ -32,9 +66,13 @@
     }
 }
 
-#time{
-    margin: 60px auto 10px;
-    padding: 30px 50px;
+#time{ 
+    text-align: center;
+    .ti {
+        img {
+            margin: 0 auto;
+        }
+    }
 }
 
 #info {

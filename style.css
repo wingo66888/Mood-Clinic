@@ -5,6 +5,14 @@
   font-family: 微軟正黑體;
 }
 
+nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% auto 15%;
+      grid-template-columns: 15% auto 15%;
+  text-align: center;
+}
+
 #Change {
   background-color: #c3f6c3;
   background-size: cover;
@@ -24,9 +32,20 @@
   margin: 0 auto;
 }
 
+#other {
+  text-align: center;
+}
+
+#other .project img {
+  margin: 0 auto;
+}
+
 #time {
-  margin: 60px auto 10px;
-  padding: 30px 50px;
+  text-align: center;
+}
+
+#time .ti img {
+  margin: 0 auto;
 }
 
 #info {
