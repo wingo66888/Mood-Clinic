@@ -1,9 +1,17 @@
-*{
+$color-gray: #aaa;
+$tablet: 1024px;
+$mobile: 767px;
+$color-white: #fd9116;
+$color-black: #252525;
+$box-shawod: 0 5px 7px rgba(0, 0, 0, 0.2);
+
+* {
     margin: 0;
     padding: 0;
-    font-family:微軟正黑體;
+    font-family: 微軟正黑體;
 }
 
+// 導覽列
 #menu {
     background-image: url(./img/menu.png);
     width: 32px;
@@ -24,29 +32,38 @@
     }
 }
 
-
-nav{
+nav {
     display: grid;
     grid-template-columns: 15% auto 15%;
     text-align: center;
+    background: $color-white;
     padding: 35px 0;
     box-shadow: $box-shawod;
     position: fixed;
     z-index: 3;
     width: 100%;
-}
+    height: 25px;
 
-#Change{
+    @media screen and (max-width: $tablet) {
+        grid-template-columns: 100% 0;
+    }
+
+    @media screen and (max-width: $mobile) {
+        padding: 20px 0;
+    }
+
+}
+#Change {
     background-color: rgb(195, 246, 195);
-    background-size:cover;
-    width:650px;
-  height:480px;
-  margin:100px auto 100px auto;
-  padding:30px;
-  box-shadow:0 5px 7px rgba(0,0,0,0.5);
+    background-size: cover;
+    width: 650px;
+    height: 480px;
+    margin: 100px auto 100px auto;
+    padding: 30px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5);
 }
 
-#service{
+#service {
     text-align: center;
     .ser {
         img {
@@ -55,9 +72,7 @@ nav{
     }
 }
 
-
-
-#other{
+#other {
     text-align: center;
     .project {
         img {
@@ -66,7 +81,7 @@ nav{
     }
 }
 
-#time{ 
+#time {
     text-align: center;
     .ti {
         img {
@@ -84,7 +99,6 @@ nav{
         width: 100px;
         height: 100px;
         padding: 20px 20px;
-
     }
     .traffic {
         width: 300px;
